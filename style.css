@@ -23,6 +23,9 @@ p {
 .gray {
 	background: #efefef;
 }
+.carousel-control:focus, .carousel-control:hover {
+    color: #656464;
+}
 /* _______________2.1. Залоговки______________*/
 .title {
     font-size: 27px;
@@ -30,6 +33,7 @@ p {
     line-height: 34px;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 70px;
 }
 .title-smoll {
 	color: #212121;
@@ -44,10 +48,13 @@ p {
 	text-align: center;
     width: 80%;
     margin: auto;
-    margin-top: 70px;
     margin-bottom: 100px;
     line-height: 33px;
 }
+
+
+
+
 /* _______________2.2. Ссылки________________*/
 /* _______________2.3. Элементы форм_________*/
 
@@ -82,6 +89,16 @@ p {
     text-align: center;
     color: black;
 }
+@media (max-width: 500px) {
+.menu a {
+	font-size: 14px;
+}
+}
+@media (max-width: 375px) {
+.menu a {
+	font-size: 10px;
+}
+}
 .menu a:hover {
 }
 .head-title {
@@ -95,7 +112,7 @@ p {
 }
 @media (max-width: 768px) {
 .head-title {
-	font-size: 60px;
+	font-size: 50px;
 }
 }
 @media (max-width: 400px) {
@@ -140,9 +157,6 @@ p {
     cursor: pointer;
 }
 /*___________4. BODY (Основной блок сайта)_______________*/
-.why {
-	height: 490px;
-}
 .services img {
 	margin-top: 80px;
 }
@@ -152,10 +166,36 @@ p {
 }
 .sl-block {
     width: 30%;
-    height: 360px;
     background: black;
     float: left;
     margin: 0 16px;
+	padding-bottom: 100px;
+    margin-bottom: -100px;
+}
+@media (max-width: 1200px) {
+.sl-block {
+	width: 28%;
+}
+}
+@media (max-width: 992px) {
+.sl-block {
+	width: 28%;
+}
+}
+@media (max-width: 768px) {
+.sl-block {
+	width: 25%;
+}
+}
+@media (max-width: 500px) {
+.sl-block {
+	width: 38%;
+}
+}
+@media (max-width: 500px) {
+.sl-block-hidden {
+	display: none;
+}
 }
 .sl-one-r {
     background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.0) 100%)!important;
@@ -163,9 +203,27 @@ p {
     opacity: 1;
     right: -100px!important;
 }
+@media (max-width: 1200px) {
+.sl-one-r {
+    right: 10px!important;
+    width: 8%;
+}
+}
+@media (max-width: 992px) {
+.sl-one-r {
+    right: 0px!important;
+    width: 7%;
+}
+}
+@media (max-width: 768px) {
+.sl-one-r {
+    right: 0px!important;
+    width: 7%;
+}
+}
 .sl1-enter p {
 	color: white;
-	margin-left: 35px;
+    margin-left: 12%;
 	text-transform: uppercase;
 }
 .sl1-enter p:first-child {
@@ -180,8 +238,7 @@ p {
     text-transform: inherit;
 }
 .sl1-enter img {
-	margin-left: 35px;
-	margin-right: 20px;
+	margin: 0 7% 10% 12%;
 	float: left;
 }
 .sl1-enter p:nth-child(4) {
@@ -190,6 +247,59 @@ p {
     padding-top: 14px;
 }
 .sl1-enter p:last-child {
+
+}
+/*___________4.1 SLIDER_2 (Слайдер№2 )_______________*/
+#carousel-example-generic2 img {
+	float: left;
+~	margin: 80px 4%;
+	margin-left: 4%;
+    margin-right: 4%;
+}
+#carousel-example-generic2 img:last-child {
+    margin-bottom: 80px;
+}
+@media (max-width: 1200px) {
+#carousel-example-generic2 img {
+    margin: 80px 2.6%;
+}
+}
+@media (max-width: 992px) {
+#carousel-example-generic2 img {
+    margin: 80px 1%;
+}
+}
+@media (max-width: 768px) {
+#carousel-example-generic2 img {
+    margin: 1%;
+}
+}
+
+
+
+
+
+
+.services .title {
+	margin-bottom: 0;
+}
+@media (max-width: 768px) {
+.services .title {
+    margin-bottom: 70px;
+}
+}
+
+
+
+
+
+
+.sl-block-2 {
+    width: 30%;
+    height: 270px;
+    background: black;
+    float: left;
+    margin: 0 16px;
 
 }
 
