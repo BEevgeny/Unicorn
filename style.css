@@ -50,6 +50,7 @@ p {
     margin: auto;
     margin-bottom: 100px;
     line-height: 33px;
+    font-size: 16px;
 }
 
 
@@ -246,13 +247,9 @@ p {
 	font-weight: 600;
     padding-top: 14px;
 }
-.sl1-enter p:last-child {
-
-}
 /*___________4.1 SLIDER_2 (Слайдер№2 )_______________*/
 #carousel-example-generic2 img {
 	float: left;
-~	margin: 80px 4%;
 	margin-left: 4%;
     margin-right: 4%;
 }
@@ -276,8 +273,42 @@ p {
 }
 
 
+.port-tabs {
+    border: 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 430px;
+    margin-left: calc(50% - 215px);
+    margin-bottom: 45px;
+}
+
+.port-tabs>li.active>a, .port-tabs>li.active>a:focus, .port-tabs>li.active>a:hover {
+    border: 0;
+}
 
 
+
+/*___________4.1 SLIDER_3 (Слайдер№3 )_______________*/
+.portfol {
+	margin-bottom: 170px;
+}
+.portfol img {
+	float: left;
+	width: 25%;
+}
+.sl3-indicator {
+	bottom: -80px;
+}
+
+.sl3-indicator .active {
+    background-color: #ee362e;
+    border: 1px red solid;
+}
+.sl3-indicator li {
+    border: 1px solid #bfbfbf;
+    background: #bfbfbf;
+}
 
 
 .services .title {
@@ -289,20 +320,37 @@ p {
 }
 }
 
-
-
-
-
-
-.sl-block-2 {
-    width: 30%;
-    height: 270px;
-    background: black;
-    float: left;
-    margin: 0 16px;
-
+.quote {
+	background: #000;
+}
+.quote img {
+	margin-top: 80px;
+    margin-bottom: 30px;
+}
+.quote p {
+    color: #eeeeee;
+    font-size: 20px;
+    line-height: 38px;
+}
+.quote p:last-child {
+    font-style: italic;
 }
 
+
+.facts {
+	background-image: url(images/backg-facts.png);
+    background-size: cover;
+}
+.facts .title {
+    color: #eee;
+    font-family: "Source Sans Pro";
+}
+.frame {
+    height: 500px;
+    background: white;
+    opacity: 0.34;
+    margin-bottom: 190px;
+}
 /*___________5. FOOTER (Подвал )_______________*/
 /*___________6. SIDEBAR (Справа)_______________*/
 
