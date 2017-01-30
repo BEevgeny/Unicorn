@@ -23,8 +23,17 @@ p {
 .gray {
 	background: #efefef;
 }
+.italic {
+    font-style: italic;
+}
 .carousel-control:focus, .carousel-control:hover {
     color: #656464;
+}
+.name {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
 }
 /* _______________2.1. Залоговки______________*/
 .title {
@@ -332,9 +341,7 @@ p {
     font-size: 20px;
     line-height: 38px;
 }
-.quote p:last-child {
-    font-style: italic;
-}
+
 
 
 .facts {
@@ -346,11 +353,29 @@ p {
     font-family: "Source Sans Pro";
 }
 .frame {
-    height: 500px;
     background: white;
     opacity: 0.34;
-    margin-bottom: 190px;
+    margin: 0 7% 190px 7%;
 }
+.fr-number {
+    color: #000;
+	font-size: 27px;
+    font-weight: 700;
+    line-height: 34px;
+    border-bottom: 4px #4d4c4b solid;
+    padding-bottom: 10px;
+    width: 50px;
+    margin: auto;
+    margin-top: 80px;
+}
+.fr-text {
+    color: #000;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
 /*___________5. FOOTER (Подвал )_______________*/
 /*___________6. SIDEBAR (Справа)_______________*/
 
