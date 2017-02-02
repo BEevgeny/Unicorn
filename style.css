@@ -7,7 +7,7 @@ body {
   color: black;
   background: white;
 }
-/* ___________2. Типовые элементы____________*/
+/* ___________2. Типовые элементы ____________*/
 p {
 	color: #212121;
 	font-family: "Source Sans Pro";
@@ -35,7 +35,7 @@ p {
 	line-height: 34px;
 	text-transform: uppercase;
 }
-/* _______________2.1. Залоговки______________*/
+/* _______________2.1. Залоговки ______________*/
 .title {
     font-size: 27px;
     font-weight: 700;
