@@ -35,6 +35,9 @@ p {
 	line-height: 34px;
 	text-transform: uppercase;
 }
+.flex {
+	display: flex;
+}
 /* _______________2.1. Залоговки ______________*/
 .title {
     font-size: 27px;
