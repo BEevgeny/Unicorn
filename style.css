@@ -345,8 +345,6 @@ p {
     line-height: 38px;
 }
 
-
-
 .facts {
 	background-image: url(images/backg-facts.png);
     background-size: cover;
@@ -377,6 +375,17 @@ p {
     line-height: 34px;
     margin-bottom: 70px;
     margin-top: 10px;
+}
+
+.muzzle {
+	display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.muzzle>div {
+    margin-bottom: 10%;
+
 }
 
 /*___________5. FOOTER (Подвал )_______________*/
