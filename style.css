@@ -351,12 +351,11 @@ p {
     font-family: "Source Sans Pro";
 }
 .frame {
-    background: white;
-    opacity: 0.34;
+    background: rgba(255, 255, 255, 0.34);
     margin: 0 7% 190px 7%;
 }
 .fr-number {
-    color: #000;
+    color: #fff;
 	font-size: 27px;
     font-weight: 700;
     line-height: 34px;
@@ -367,7 +366,7 @@ p {
     margin-top: 80px;
 }
 .fr-text {
-    color: #000;
+    color: #fff;
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 70px;
