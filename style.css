@@ -384,12 +384,31 @@ p {
 
 }
 
-
-
 .blog {
-
+    margin-top: 80px;
+}
+.blog img {
+~    width: 100%;
 }
 
+.blog .title {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.blog .discript {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.blog-data {
+    text-align: center;
+    line-height: 33px;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 10%;
+}
 
 
 
