@@ -354,14 +354,9 @@ p {
 .muzzle>div {
     margin-bottom: 10%;
 }
-
-~.blog {
+.blog-one {
     margin-top: 80px;
 }
-.blog img {
-~    width: 100%;
-}
-
 .blog .title {
     margin-bottom: auto;
     margin-top: auto;
@@ -381,19 +376,11 @@ p {
     margin-top: 10%;
 }
 
-
-~.minh {
-	min-height: 380px;
+@media (max-width: 1200px) {
+.blog img {
+	width: 107%;
 }
-
-/*
-width: 200px;
-float: left;
-background: #3d2af0;
-padding-bottom: 200px;
-margin-bottom: -200px;
-*/
-
+}
 
 
 
