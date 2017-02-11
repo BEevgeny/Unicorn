@@ -382,10 +382,17 @@ p {
 }
 
 
+~.minh {
+	min-height: 380px;
+}
 
-
-
-
+/*
+width: 200px;
+float: left;
+background: #3d2af0;
+padding-bottom: 200px;
+margin-bottom: -200px;
+*/
 
 
 
