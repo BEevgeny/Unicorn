@@ -345,6 +345,10 @@ p {
 .muzzle>div {
     margin-bottom: 10%;
 }
+
+.blog{
+	min-width: 750px;
+}
 .blog-one {
     margin-top: 80px;
 }
