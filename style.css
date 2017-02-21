@@ -390,6 +390,11 @@ p {
 }
 
 
+.personal {
+background-color:  #efefef;
+~width: 1500px;
+height: 217px;
+}
 /*___________5. FOOTER (Подвал )_______________*/
 /*___________6. SIDEBAR (Справа)_______________*/
 
