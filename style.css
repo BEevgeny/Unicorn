@@ -181,11 +181,13 @@ p {
     background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.0) 100%)!important;
     color: black;
     opacity: 1;
+    right: -100px!important;
 }
 @media (max-width: 1200px) {
 .sl-one-r {
     right: 10px!important;
     width: 8%;
+    right: -50px!important;
 }
 }
 @media (max-width: 992px) {
