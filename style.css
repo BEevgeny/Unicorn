@@ -392,10 +392,14 @@ p {
 }
 
 .personal {
-background-color:  #efefef;
-height: 217px;
+	padding-top: 75px;
+	background-color:  #efefef;
+	height: 220px;
 }
 
+.aa {
+background: red;
+}
 /*___________5. FOOTER (Подвал )_______________*/
 /*___________6. SIDEBAR (Справа)_______________*/
 
