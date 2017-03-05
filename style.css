@@ -347,8 +347,8 @@ p {
     margin-bottom: 10%;
 }
 
-.blog{
-	min-width: 750px;
+.blog {
+	padding: 0;
 }
 .blog-one {
     margin-top: 80px;
@@ -374,7 +374,8 @@ p {
 
 @media (max-width: 1200px) {
 .blog img {
-	width: 107%;
+	width: 100%;
+~	width: 107%;
 }
 }
 
@@ -419,4 +420,19 @@ p {
 	height: 450px;
 }
 /*___________5. FOOTER (Подвал )_______________*/
+footer {
+	background: red;
+~	height: 550px;
+	padding-top: 75px;
+}
 /*___________6. SIDEBAR (Справа)_______________*/
+
+.foot-left{
+	background: blue;
+}
+.foot-right {
+	background: white;
+}
+.zz {
+	background: purple;
+}
