@@ -391,9 +391,28 @@ p {
 }
 
 .personal {
-	padding-top: 75px;
 	background-color:  #efefef;
-	height: 220px;
+}
+
+.personal .block {
+    padding: 15px 0 15px 0;
+    border-left: 7px black solid;
+    margin: 50px 0 50px 0;
+}
+
+.personal .block p:nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    padding-left: 15px;
+~    text-align: left;
+
+}
+.personal .block p:nth-child(2){
+	letter-spacing: 1.05px;
+    line-height: 33px;
+    padding-left: 15px;
+~    text-align: center;
 }
 
 .twit {
