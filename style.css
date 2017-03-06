@@ -413,7 +413,6 @@ p {
 	letter-spacing: 1.05px;
     line-height: 33px;
     padding-left: 15px;
-~    text-align: center;
 }
 
 .twit {
@@ -422,17 +421,46 @@ p {
 /*___________5. FOOTER (Подвал )_______________*/
 footer {
 	background: red;
-~	height: 550px;
 	padding-top: 75px;
 }
-/*___________6. SIDEBAR (Справа)_______________*/
+
+.foot-title {
+	color: #eeeeee;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+}
 
 .foot-left{
 	background: blue;
 }
 .foot-right {
-	background: white;
+~	background: white;   /* !!! */
+	background: black;
+}
+
+.foot-right p:first-child  {
+	color: #dddddd;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.foot-right p {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
 .zz {
 	background: purple;
+}
+
+.foot-link a{
+	color: #aaaaaa;
+    line-height: 24px;
+    cursor: pointer;
+    padding: 0 4% 0 4%;
+    cursor: pointer;
 }
