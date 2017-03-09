@@ -453,9 +453,6 @@ footer {
     font-weight: 400;
     line-height: 20px;
 }
-.zz {
-	background: purple;
-}
 
 .foot-link a{
 	color: #aaaaaa;
@@ -465,3 +462,6 @@ footer {
     cursor: pointer;
 }
 
+.zz {
+	background: purple;
+}
