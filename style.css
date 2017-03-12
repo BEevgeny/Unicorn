@@ -433,9 +433,9 @@ footer {
 
 .foot-left{
 	background: blue;
+~	background: black;
 }
 .foot-right {
-~	background: white;   /* !!! */
 	background: black;
 }
 
